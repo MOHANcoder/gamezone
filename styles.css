@@ -1,0 +1,47 @@
+.intro-xo, .intro-sudoku, .intro-rps {
+    width: 20vw;
+    min-height: 10vw;
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0.15px 0.15px 50px #64646478;
+    margin-top: 13%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .intro-rps {
+    position: relative;
+    top: 5px;
+    font-size: 11px;
+  }
+
+  a:visited {
+    text-decoration: none;
+}
+
+  .xo-image, .sudoku-image, .rps-image {
+    margin-top: 20px;
+  }
+
+  div {
+    transition: transform .4s;
+  }
+
+  div:hover {
+  transform: scale(1.2);
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15vh;
+    gap: 10vw;
+  }
+
+  main a{
+    width: max-content;
+    justify-self: center;
+  }
