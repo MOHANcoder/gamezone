@@ -160,7 +160,7 @@ function Sudoku(container, level = levels.EASY) {
         }
         this.board[row][column] = 0;
         this.disappearMessage(whereToAlert);
-        navigator.vibrate(500);
+        navigator.vibrate(100);
     }
 
     this.checkValidToEnter = function (n, row, column) {
