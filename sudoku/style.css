@@ -8,6 +8,7 @@ body {
     row-gap: 2vh;
     height: 100vh;
     grid-template-rows: 2fr auto 2fr;
+    font-family:'poppins','sans-serif';
 }
 
 /* ::-webkit-scrollbar{
